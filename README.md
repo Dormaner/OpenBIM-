@@ -6,6 +6,7 @@ buildingSMART之前常常把精力集中在建筑领域内的数据交换，现�
 
 ## OpenBIM工作流
 ## OpenBIM名词解释
+### IDS
 IDS：IDS的最终目的是为了让人和计算机都能读懂BIM信息需求。使用IDS，我们可以制定哪些数据必须要包含在BIM模型中，并验证是否合规。
 IDS是基于XML格式的
 
@@ -29,7 +30,8 @@ IDS是基于XML格式的
 
 ![Alt text](/images/1676442076504.png)
 
+### bSDD（数据字典）
+BIM建模员用bSDD来轻松有效地访问所有标准、丰富他们的模型；BIM经理用bSDD检查BIM数据的有效性；高级技术人员使用bSDD去进行合规性检查、查找产品制造商，创建IDS等。
+bSDD不是一个标准，而是buildingSMART提供的一项服务，以更简单地去使用BIM和OpenBIM标准。
 
-
-
-第1步：使用IDS定义需求，
+为什么要有这个东西？
