@@ -35,3 +35,18 @@ BIM建模员用bSDD来轻松有效地访问所有标准、丰富他们的模型�
 bSDD不是一个标准，而是buildingSMART提供的一项服务，以更简单地去使用BIM和OpenBIM标准。
 
 为什么要有这个东西？
+
+## Oslo Airport
+
+使用软件：Archicad、EDModelServer，Grasshopper,MicroStation V8i,Navigate SImple BIM,Navisworks,Novapoint,ProjectWise,Revit,Solibri Model Checker,StreamBIM,SYNCHROPRO,Tekla BIMsight,Tekla Structures,Trimble Connect,Vectorworks
+交付格式：IFC 2*3
+设计团队：Team-T
+负责人：Aas Jakobsen
+
+## The Pontsteiger Project
+使用软件：Allplan,Archicad,BIMcollab,Docstream,Solibri Model Checker,Tekla Structures,Vectorworks
+交付格式：IFC2*3,bcf
+时间：2014年4月设计，2015年10月开工，2018年5月入住
+
+## The Henderson -面向未来的办公建筑
+设计师：扎哈团队
