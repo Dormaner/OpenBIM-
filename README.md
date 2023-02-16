@@ -25,11 +25,11 @@ IDS是基于XML格式的
 
 ``` mermaid
 graph LR;
-    A--> B & C & D;
-    B--> A & E;
-    C--> A & E;
-    D--> A & E;
-    E--> B & C & D;
+    Revit--> BIMcollab;
+    Archicad--> BIMcollab;
+    Tekla--> BIMcollab;
+    BIMcollab--> 碰撞检查报告（BCF）
+    BIMcollab--> 版本管理（git）
 ```
 
 ##使用Sketchup的bSDD的典型案例
