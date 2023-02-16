@@ -28,15 +28,13 @@ graph LR;
     Revit--> BIMcollab;
     Archicad--> BIMcollab;
     Tekla--> BIMcollab;
-    BIMcollab--> 碰撞检查报告（BCF）
-    BIMcollab--> 版本管理（git）
 ```
 
 ##使用Sketchup的bSDD的典型案例
 
 不明白的地方：.ids格式和XML格式的区别是什么？
 
-![Alt text](/images/1676442076504.png)
+![Alt text](/images/yingzhu%20Museum.png)
 
 ### bSDD（数据字典）
 BIM建模员用bSDD来轻松有效地访问所有标准、丰富他们的模型；BIM经理用bSDD检查BIM数据的有效性；高级技术人员使用bSDD去进行合规性检查、查找产品制造商，创建IDS等。
