@@ -23,6 +23,14 @@ IDS是基于XML格式的
 ## 第三步：检查
 检查后导出一个BCF文件
 
+``` mermaid
+graph LR;
+    A--> B & C & D;
+    B--> A & E;
+    C--> A & E;
+    D--> A & E;
+    E--> B & C & D;
+```
 
 ##使用Sketchup的bSDD的典型案例
 
