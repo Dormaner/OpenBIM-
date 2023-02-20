@@ -1,5 +1,5 @@
 # 1.OpenBIM：An Enabling Solution for Information Interoperability
-主要研究了2000-2019年这20年间国际上对于openBIM的研究情况。
+## 2000-2019年这20年间国际上对于openBIM的研究情况。
 1. 对于openBIM的研究集中于IFC。
 ![Alt text](images/openBIM%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91.png)
 1. 研究openBIM的期刊主要有：
@@ -26,11 +26,22 @@
    Apstex IFC是一个基于Java的工具包，提供对基于IFC的BIM模型的完全访问，可用于读取、写入、修改、创建IFC模型，且有可视化的界面
    IFC Engine DLL式一个STEP工具箱，能生成最新版本的IFC模型。
 
-openBIM的六大研究方向
+## openBIM的六大研究方向
 1. Information representation（信息表达）
 2. Information query（信息查询）
+   Mazairac等^[Mazairac, W.; Beetz, J. BIMQL—An open query language for building information models. Adv. Eng. Inform.2013, 27, 444–456.]提出一种基于特定领域的开放语言查询框架，可以用来选择、更新和删除存储在IFC中的数据（这是为bimserve.org开发的）；为了加快构件元素之间的拓扑查询，Khalili等^[Khalili, A.; Chua, D.K.H. IFC-Based Graph Data Model for Topological Queries on Building Elements.J. Comput. Civ. Eng. 2013, 29. ]提出图数据模型（GDM），此外，一个新的基于IFC的算法被用于推导出建筑元素之间的拓扑关系；另外，也可以利用数据库技术、自然语言处理、机器学习等先进技术和openBIM相结合来解决信息查询问题，如，Ghang^[Ghang, L.; Jiyong, J.; Jongsung, W.; Chiyon, C.; Seok-joon, Y.; Sungil, H.; Hoonsig, K. Query Performance of the IFC Model Server Using an Object-Relational Database Approach and a Traditional Relational Database Approach. J. Comput. Civ. Eng. 2014, 28, 210–222.
+]等人结合传统关系数据库的优势，开发出一种创新的对象关系IFC服务器，可以提高传统IFC服务器的查询性能。
 3. Information exchange（信息交换）
+   使用本身格式进行信息交换：IFC、IDM、MVD
+   使用平台进行信息交换：BIMserver、xBIM
 4. Information extension（信息扩展）
+   向桥梁、隧道、景观的扩展等
 5. Information integration（信息集成）
-
-   
+   和GIS的集成研究、和先进技术（如机器学习、数据库等技术的）集成研究
+## openBIM的展望
+1. 规则检查
+   目前规则检查可能会导致语法问题、语义错误和意外的几何转换；
+2. IFC映射关系不够清晰，IFC所表达的语义过于通用。
+3. BIM和GIS的集成
+4. IFC向CityGML转换时，BIM于GIS之间的模型信息不匹配将导致几何信息的不匹配。由于BIM模型中存储的庞大而复杂的IFC数据具有各种属性和几何表达式，这将对映射过程形成干扰。
+5. 在IFC和CityGML进行数据转换时，可能会出现特征的语义丢失。如一个建筑的外墙和内墙在转换后变成了同一个物体。
