@@ -45,3 +45,20 @@
 3. BIM和GIS的集成
 4. IFC向CityGML转换时，BIM于GIS之间的模型信息不匹配将导致几何信息的不匹配。由于BIM模型中存储的庞大而复杂的IFC数据具有各种属性和几何表达式，这将对映射过程形成干扰。
 5. 在IFC和CityGML进行数据转换时，可能会出现特征的语义丢失。如一个建筑的外墙和内墙在转换后变成了同一个物体。
+
+# Generating construction schedules through automatic data extraction using open BIM technology
+1. 研究目的：利用数据自动生成施工进度表。
+1. 五个步骤
+BIM模型的构建→ifcXML文件数据的解析（包含几何数据和材料数据）（相较于用STEP标准构建的ifc数据，利用XML构建的ifcXML有更多的数据处理库）→解析BIM数据至工期活动数据→利用Microsoft Project编写时间表。
+
+# Ifc to building energy performance simulation: A systematic review of the main adopted tools and approaches
+
+1. 目的：如何解决BIM和BEPS（building energy performance simulation）的互操作性问题
+2. 比较了IFC和gbXML两种格式在建筑模拟中作为通用格式的可能性。
+ gbXML（Green Building XML）专注于环境数据，被能源模拟软件普遍采用，成为事实上的标准，但仅能接受矩形的形状。ifc则更加通用，虽然BIM模型在保存为这两种格式都会出现数据丢失的问题（10%左右）。因此，进一步开发ifc比gbXML更有意义。
+1. 另外一种方法是，修复IFC文件后，利用转换工具将IFC转换为gbXML。
+2. ifc文件通常很庞杂，需要进行清理、校正后才适合导入到能源模拟软件中
+3. 结论：本文介绍了BIM和BEPS之间的数据交换，比较了IFC和gbXML两种格式的应用，并选定IFC格式讨论了BIM到BEPS的工作流。
+
+# Development of openBIM-based energy analysis software to improve the interoperability of energy performance assessment
+1. 摘要：传统能源性能评估（EPA）方法（手工）容易导致数据错误，但是BIM和能源模拟模型之间的互操作性低下，本研究旨在开发一个平台，来提高基于BIM的EPA的互操作性水平。
